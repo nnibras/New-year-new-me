@@ -1,0 +1,57 @@
+/* Styles for full website */
+*
+{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Styles for header */
+.header-container
+{
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.banner-content
+{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: right; 
+}
+
+.banner-content h1
+{
+    width: 525px;
+    height: 228px;
+    /* font-weight: 900; */
+    font-size: 65px;
+    text-align: right;
+    margin-bottom: 25px;   
+    color: #151414;
+}
+
+.banner-content p
+{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 35px;
+    color: #444343
+}
+
+.btn-orange
+{
+  padding: 16px 20px;
+  background: #F15B22;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+}
