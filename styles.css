@@ -110,14 +110,64 @@
 .second-block
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 150px;
+    margin-left: 250px;
+}
+
+.below-h3
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+    text-align: center;
+    
+}
+
+.below-h3 p
+{
+
+    margin-left: 20px;
+    
+}
+
+.second-block div
+{
+    margin-right: 90px;
 }
 
 .second-block h3
 {
     font-weight: 700;
     font-size: 40px;
+    margin: 0;
     margin-bottom: 60px;
+    text-align: center;
+}
+
+.second-block img
+{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+.second-block h4
+{
+    width: 270px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.second-block p
+{
+    width: 175px;
+    height: 30px;
+    color: #737272;
+    font-weight: 400;
+    font-size: 20px;
 }
 
