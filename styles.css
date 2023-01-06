@@ -183,6 +183,7 @@
     background-image: url(/images/watch.png), url(/images/gradient2.png);
     background-blend-mode:soft-light;
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 
 .third-block h3
@@ -209,3 +210,100 @@
   height: 64px;
   margin-left: 60px;
 }
+
+
+/* Styles for footer */
+
+.footer-container
+{
+    width: 1950px;
+    height: 577px;
+    background-color: #151414;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.future
+{
+    width: 485px;
+    height: 317px;
+    justify-content: right;
+    margin: 130px 10px 0 230px;
+}
+
+.future h3
+{
+    width: 148px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.future p
+{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.icons
+{
+    display: flex;
+    
+}
+
+.icons a
+{
+    margin-right: 20px;
+}
+
+.subscribe
+{
+    width: 123px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 110px auto;
+}
+
+.subscribe h4
+{
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.email
+{
+    width: 325px;
+    height: 65px;
+    background-color: black;
+    color: #F3F3F3;
+    text-align: justify;
+    
+    margin: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.last-btn
+{
+  padding: 16px 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  color: #F15B22;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  width: 160px;
+  height: 64px;
+  margin-left: 10px
+}
+
+
+
+
