@@ -9,7 +9,7 @@
 /* Styles for header */
 .header-container
 {
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(images/banner/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -102,7 +102,7 @@
 .first-block-text ul li
 {
     margin-bottom: 10px;
-    list-style-image: url(/images/icons/check.png);
+    list-style-image: url(images/icons/check.png);
 }
 
 /* Second Section */
@@ -180,7 +180,7 @@
     margin-top: 150px;
     justify-content: center;
     margin-left: 230px;
-    background-image: url(/images/watch.png), url(/images/gradient2.png);
+    background-image: url(images/watch.png), url(images/gradient2.png);
     background-blend-mode:soft-light;
     background-repeat: no-repeat;
     margin-bottom: 150px;
